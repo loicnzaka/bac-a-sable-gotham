@@ -1,0 +1,57 @@
+@import url(./reset.css);
+:root{
+    /* CSS HEX */
+--timberwolf: #dad5d5ff;
+--timberwolf-2: #d9cdcdff;
+--licorice: #1e191aff;
+--silver: #ada9a9ff;
+--jet: #302f2fff;
+--color-title: #fafafafa;
+}
+
+header,
+nav,
+main,
+footer{
+    max-width: 100rem;
+    margin:0 auto;
+    background-color: var(--timberwolf);
+    padding: 0 1rem;
+    
+}
+div.picture img{
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+section p{
+    text-align: justify;
+    padding: 1rem 0;
+}
+footer p{
+    text-align: center;
+}
+nav ol{
+    line-height: 3rem;
+    padding: 1rem 0;
+    padding-left: 2rem;
+    list-style-type: decimal;
+    color: var(--licorice);
+}
+nav ol *{
+    color: var(--licorice);
+}
+header h1, section h2, nav h2{
+    font-weight: 200;
+    line-height: 6rem;
+    font-size: 4rem;
+    
+}
+section h2, nav h2{
+    text-transform: capitalize;
+    font-size: x-large;
+    background-color: var(--color-title);
+    padding-left: 1rem;
+    box-shadow: 0 .4rem 0 var(--silver);
+}

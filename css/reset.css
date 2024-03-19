@@ -1,0 +1,46 @@
+/* reset css */
+/* Reset de base */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  box-sizing: border-box;
+  /* background: #222 url(../asset/cover-batman.jpg)no-repeat fixed center center / cover; */
+  background:linear-gradient( to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%), 
+  url(../asset/cover-batman.jpg)no-repeat fixed center center / cover;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles supplémentaires */
+body {
+  font: 1.6rem "Roboto Slab", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  letter-spacing: 0.1rem; /* Espacement entre les lettres */
+  font-weight: 200;
+  height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
